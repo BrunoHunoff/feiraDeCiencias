@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/page.css">
+    <title>Projeto Feira de Ciências</title>
+</head>
+
+<body>
+    <div class="title">
+        <h1>Campeonato de Videogame</h1>
+    </div>
+
+    <div class="container-estrutura">
+        <div class="container-logica">
+            <div class="line border">
+                <div class="kit-checkbox">
+                    <div class="checkbox-container"></div>
+                    <label class="switch">
+                        <input id="check1" type="checkbox">
+                        <span class="slider"></span>
+                    </label>
+                
+                    <div class="checkbox-text">
+                        <span class="slider-title">Tem Videogame</span>
+                    </div>
+                </div>
+
+                <span class="teste-logico">E</span>
+
+                <div class="or">
+                    <div class="line">
+                        <div class="kit-checkbox">
+                            <div class="checkbox-container"></div>
+                            <label class="switch">
+                                <input id="check2" type="checkbox">
+                                <span class="slider"></span>
+                            </label>
+                        
+                            <div class="checkbox-text">
+                                <span class="slider-title">Joga Fortnite</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <span class="teste-logico">OU</span>
+
+                    <div class="line">
+                        <div class="kit-checkbox">
+                            <div class="checkbox-container"></div>
+                            <label class="switch">
+                                <input id="check3" type="checkbox">
+                                <span class="slider"></span>
+                            </label>
+                        
+                            <div class="checkbox-text">
+                                <span class="slider-title">Joga Rocket League</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <span class="teste-logico">OU</span>
+                
+            <div class="line border">
+
+                <div class="or">
+                    <div class="line">
+                        <div class="kit-checkbox">
+                            <div class="checkbox-container"></div>
+                            <label class="switch">
+                                <input id="check4" type="checkbox">
+                                <span class="slider"></span>
+                            </label>
+                        
+                            <div class="checkbox-text">
+                                <span class="slider-title">Tem Computador</span>
+                            </div>
+                        </div>
+
+                        <span class="teste-logico">E</span>
+
+                        <div class="kit-checkbox">
+                            <div class="checkbox-container"></div>
+                                <label class="switch">
+                                    <input id="check5" type="checkbox">
+                                    <span class="slider"></span>
+                                </label>
+                            
+                                <div class="checkbox-text">
+                                    <span class="slider-title">Joga Minecraft</span>
+                                </div>
+                        </div>
+                    </div>
+
+                    <span class="teste-logico">E</span>
+
+                    <div class="line">
+                        <div class="kit-checkbox">
+                            <div class="checkbox-container"></div>
+                            <label class="switch">
+                                <input id="check6" type="checkbox">
+                                <span class="slider"></span>
+                            </label>
+                        
+                            <div class="checkbox-text">
+                                <span class="slider-title">Joga LOL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <span class="teste-logico">OU</span>
+
+            <div class="line border">
+                <div class="kit-checkbox">
+                    <div class="checkbox-container"></div>
+                    <label class="switch">
+                        <input id="check7" type="checkbox">
+                        <span class="slider"></span>
+                    </label>
+                
+                    <div class="checkbox-text">
+                        <span class="slider-title">Joga Fifa</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <button type="button" id="aprovado" class="aprovado" onclick="testarAprovacao()">
+            Aprovado?
+        </button>
+        
+    </div>
+
+    <a class="home" href="/index.html">Home</a>
+    
+    <script src="/index.js"></script>
+</body>
+
+</html>
